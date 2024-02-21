@@ -73,7 +73,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .heading-primary {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 6.8rem;
   font-weight: 700;
   color: #333;
@@ -551,6 +551,38 @@
   align-items: center;
   /* justify-content: center; */
   gap: 2.4rem;
+}
+
+/**************************/
+/* MEDIA */
+/*************************/
+.section-media {
+  padding: 9.6rem 0;
+}
+
+.grid-media {
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0;
+  align-items: center;
+}
+
+.video-container {
+  background-image: red;
+}
+
+.video {
+  max-width: 100%;
+  opacity: 0.9;
+  border-radius: 3px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.075);
+}
+
+.instagram-media {
+}
+
+.media-content {
+  display: grid;
+  justify-items: end;
 }
 
 /**************************/
