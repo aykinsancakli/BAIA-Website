@@ -577,9 +577,6 @@
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.075);
 }
 
-.instagram-media {
-}
-
 .media-content {
   display: grid;
   justify-items: end;
@@ -648,6 +645,11 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.mail-box:hover .footer-link,
+.mail-box:active .footer-link {
+  color: #555;
 }
 
 .address-col {
