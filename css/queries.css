@@ -13,6 +13,12 @@
   }
 }
 
+@media (max-width: 75em) {
+  .flex-media {
+    display: none;
+  }
+}
+
 /**************************/
 /* 1100 px and below -> Entering the mobile zone */
 /* 1100 / 16 = 68.75 */
@@ -204,11 +210,11 @@
     font-size: 3rem;
   }
 
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 }

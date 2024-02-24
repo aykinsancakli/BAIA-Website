@@ -564,15 +564,17 @@
   grid-template-columns: 1fr 1.5fr;
   gap: 0;
   align-items: center;
+  margin-bottom: 6.4rem;
 }
 
 .video-container {
-  background-image: red;
+  display: grid;
+  justify-items: end;
 }
 
 .video {
   max-width: 100%;
-  opacity: 0.9;
+  opacity: 0.8;
   border-radius: 3px;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.075);
 }
@@ -580,6 +582,24 @@
 .media-content {
   display: grid;
   justify-items: end;
+}
+
+/* FLEXBOX MEDIA */
+.flex-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-flex {
+  max-width: 454.4px;
+  height: 646.85px;
+  margin-right: 4rem;
+}
+
+.media-content-box {
+  width: 540px;
+  height: 722px;
 }
 
 /**************************/
