@@ -558,6 +558,14 @@
 /*************************/
 .section-connect {
   padding: 9.6rem 0;
+  background-image: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 45%,
+    rgba(208, 155, 101, 0.24) 60%,
+    rgba(225, 133, 42, 0.24) 70%,
+    rgba(222, 188, 154, 0.24) 90%,
+    rgba(253, 252, 251, 0.24) 99%
+  );
 }
 
 .grid-media {
@@ -599,11 +607,13 @@
   max-width: 454.4px;
   height: 646.85px;
   margin-right: 4rem;
+  opacity: 0.6;
 }
 
 .media-content-box {
   width: 540px;
   height: 722px;
+  opacity: 0.7;
 }
 
 /**************************/
