@@ -579,6 +579,10 @@
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.075);
 }
 
+.video-grid {
+  transform: translateX(4rem);
+}
+
 .media-content {
   display: grid;
   justify-items: end;

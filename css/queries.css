@@ -17,6 +17,10 @@
   .flex-media {
     display: none;
   }
+
+  .video-grid {
+    transform: translateX(0);
+  }
 }
 
 /**************************/
