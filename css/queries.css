@@ -321,8 +321,8 @@
   }
 
   .hero-product-box {
-    opacity: 1;
     animation: test 0.9s;
+    opacity: 1;
   }
 
   .product-images {
