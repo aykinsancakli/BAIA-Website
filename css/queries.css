@@ -153,6 +153,10 @@
     grid-template-columns: 3fr 2fr;
   }
 
+  .more {
+    animation: none;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
