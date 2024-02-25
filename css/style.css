@@ -500,7 +500,8 @@
 .more {
   max-width: 120rem;
   margin: 0 auto;
-  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.075);
+  /* box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.075); */
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.025);
   background-image: linear-gradient(
     to right bottom,
     rgb(255, 255, 255),
@@ -511,18 +512,22 @@
 
   border-radius: 11px;
 
-  animation: breathe 2.5s infinite;
+  animation: breathe 2.5s infinite ease-in-out;
 }
 
 .more-heading {
   font-size: 3.2rem;
   margin-bottom: 4.8rem;
+  background-image: linear-gradient(to right bottom, #604f1b, #4c3b07);
+  background-clip: text;
+  color: transparent;
 }
 
 .more-text {
   font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 6.4rem;
+  color: #604f1b;
 }
 
 .more-text-box {
@@ -711,15 +716,15 @@
 
 @keyframes breathe {
   0% {
-    transform: translateY(-0.2rem);
+    transform: translateY(0.2rem);
   }
 
   50% {
-    transform: translateY(0.2rem) scale(1.01);
-    box-shadow: 0 1.8rem 3rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-0.2rem) scale(1.03);
+    box-shadow: 0 1.8rem 3rem rgba(0, 0, 0, 0.08);
   }
 
   100% {
-    transform: translateY(-0.2rem);
+    transform: translateY(0.2rem);
   }
 }
