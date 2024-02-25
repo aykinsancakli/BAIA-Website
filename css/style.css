@@ -745,6 +745,7 @@
   70% {
     transform: translateX(2rem);
     opacity: 0.5;
+    filter: blur(1px);
   }
 
   100% {
@@ -770,9 +771,14 @@
 
 @keyframes moveInUp {
   0% {
-    transform: translateY(2rem);
+    transform: translateY(6rem);
     opacity: 0;
     filter: blur(3px);
+  }
+
+  70% {
+    transform: translateY(-1rem);
+    filter: blur(2px);
   }
 
   100% {

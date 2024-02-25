@@ -317,7 +317,7 @@
 
   .hero-img {
     width: 90%;
-    animation: moveInDown 1.5s ease-in;
+    animation: moveInDown 1.4s ease-in-out;
   }
 
   .hero-product-box {
@@ -326,11 +326,11 @@
   }
 
   .product-images {
-    animation: moveInLeft 1s ease 0.9s;
+    animation: moveInLeft 0.7s ease 0.7s;
   }
 
   .hero-products-text {
-    animation: moveInUp 1.3s ease 0.9s;
+    animation: moveInUp 0.7s ease 0.7s;
   }
 
   .step-img-box:nth-child(2) {
