@@ -317,6 +317,20 @@
 
   .hero-img {
     width: 90%;
+    animation: moveInDown 1.5s ease-in;
+  }
+
+  .hero-product-box {
+    opacity: 1;
+    animation: test 0.9s;
+  }
+
+  .product-images {
+    animation: moveInLeft 1s ease 0.9s;
+  }
+
+  .hero-products-text {
+    animation: moveInUp 1.3s ease 0.9s;
   }
 
   .step-img-box:nth-child(2) {
