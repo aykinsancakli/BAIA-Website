@@ -315,13 +315,29 @@
     padding: 0 3.2rem;
   }
 
+  .heading-primary {
+    animation: riseUp 1.4s ease-in-out;
+  }
+
+  .hero-description {
+    animation: scaleUp 1.4s ease-in-out;
+  }
+
   .hero-img {
     width: 90%;
     animation: moveInDown 1.4s ease-in-out;
   }
 
+  .btn--full {
+    animation: moveDown 1.4s ease-in-out;
+  }
+
+  .btn--outline {
+    animation: moveDown 1.4s ease-in-out;
+  }
+
   .hero-product-box {
-    animation: test 0.9s;
+    animation: waitForOpacity 0.7s;
     opacity: 1;
   }
 
