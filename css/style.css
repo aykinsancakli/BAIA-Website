@@ -124,7 +124,8 @@
   font-family: "Cormorant Garamond", serif;
   font-size: 6.8rem;
   font-weight: 700;
-  color: #333;
+  /* color: #333; */
+  color: #33271d;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
@@ -133,6 +134,7 @@
   font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+  color: #604f1b;
 }
 
 .btn--full:link,
@@ -150,7 +152,8 @@
 .btn--outline:visited {
   background-color: #c3fae8;
   background: #fff;
-  color: #555;
+  /* color: #555; */
+  color: #604f1b;
 }
 
 .btn--outline:hover,
@@ -204,6 +207,7 @@
 .hero-products-text {
   font-size: 1.8rem;
   font-weight: 600;
+  color: #604f1b;
 }
 
 .hero-products-text span {
