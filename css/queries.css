@@ -453,3 +453,27 @@
     gap: 1.4rem;
   }
 }
+
+/* FOR NON-MOBILE ANIMATIONS */
+@media (min-width: 68.75em) {
+  .heading-primary {
+    animation: bounceUp 1.25s ease-in-out;
+  }
+
+  .hero-description {
+    animation: growIn 1.25s ease-in-out;
+  }
+
+  .btn--full,
+  .btn--outline {
+    animation: bounceDown 1.25s ease-in-out;
+  }
+
+  .hero-product-box {
+    animation: growIn 1.25s ease-in-out;
+  }
+
+  .hero-img {
+    animation: slideRight 1.25s ease-in-out;
+  }
+}
