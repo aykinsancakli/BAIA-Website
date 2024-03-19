@@ -205,7 +205,8 @@
     /* Slide left */
     transform: translateX(0%);
 
-    /* position: fixed; */
+    position: fixed;
+    z-index: 900;
   }
 
   .main-nav-list {
